@@ -1,0 +1,9 @@
+c:\users\javier\documents\visual studio 2017\Projects\WFC_venta_coches\app_venta_coches\bin\Debug\app_venta_coches.exe.config
+c:\users\javier\documents\visual studio 2017\Projects\WFC_venta_coches\app_venta_coches\bin\Debug\app_venta_coches.exe
+c:\users\javier\documents\visual studio 2017\Projects\WFC_venta_coches\app_venta_coches\bin\Debug\app_venta_coches.pdb
+c:\users\javier\documents\visual studio 2017\Projects\WFC_venta_coches\app_venta_coches\obj\Debug\app_venta_coches.csprojResolveAssemblyReference.cache
+c:\users\javier\documents\visual studio 2017\Projects\WFC_venta_coches\app_venta_coches\obj\Debug\app_venta_coches.FormCoches.resources
+c:\users\javier\documents\visual studio 2017\Projects\WFC_venta_coches\app_venta_coches\obj\Debug\app_venta_coches.Properties.Resources.resources
+c:\users\javier\documents\visual studio 2017\Projects\WFC_venta_coches\app_venta_coches\obj\Debug\app_venta_coches.csproj.GenerateResource.Cache
+c:\users\javier\documents\visual studio 2017\Projects\WFC_venta_coches\app_venta_coches\obj\Debug\app_venta_coches.exe
+c:\users\javier\documents\visual studio 2017\Projects\WFC_venta_coches\app_venta_coches\obj\Debug\app_venta_coches.pdb

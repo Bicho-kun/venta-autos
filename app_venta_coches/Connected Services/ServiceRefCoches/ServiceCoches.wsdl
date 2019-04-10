@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ServiceCoches" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:56370/ServiceCoches.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:56370/ServiceCoches.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:56370/ServiceCoches.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WS_coches" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IServiceCoches_agregarCoche_InputMessage">
+    <wsdl:part name="parameters" element="tns:agregarCoche" />
+  </wsdl:message>
+  <wsdl:message name="IServiceCoches_agregarCoche_OutputMessage">
+    <wsdl:part name="parameters" element="tns:agregarCocheResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceCoches_editarCoche_InputMessage">
+    <wsdl:part name="parameters" element="tns:editarCoche" />
+  </wsdl:message>
+  <wsdl:message name="IServiceCoches_editarCoche_OutputMessage">
+    <wsdl:part name="parameters" element="tns:editarCocheResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceCoches_eliminarCoche_InputMessage">
+    <wsdl:part name="parameters" element="tns:eliminarCoche" />
+  </wsdl:message>
+  <wsdl:message name="IServiceCoches_eliminarCoche_OutputMessage">
+    <wsdl:part name="parameters" element="tns:eliminarCocheResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceCoches_buscarCoche_InputMessage">
+    <wsdl:part name="parameters" element="tns:buscarCoche" />
+  </wsdl:message>
+  <wsdl:message name="IServiceCoches_buscarCoche_OutputMessage">
+    <wsdl:part name="parameters" element="tns:buscarCocheResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceCoches_mostrarCoches_InputMessage">
+    <wsdl:part name="parameters" element="tns:mostrarCoches" />
+  </wsdl:message>
+  <wsdl:message name="IServiceCoches_mostrarCoches_OutputMessage">
+    <wsdl:part name="parameters" element="tns:mostrarCochesResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IServiceCoches">
+    <wsdl:operation name="agregarCoche">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceCoches/agregarCoche" message="tns:IServiceCoches_agregarCoche_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceCoches/agregarCocheResponse" message="tns:IServiceCoches_agregarCoche_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="editarCoche">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceCoches/editarCoche" message="tns:IServiceCoches_editarCoche_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceCoches/editarCocheResponse" message="tns:IServiceCoches_editarCoche_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="eliminarCoche">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceCoches/eliminarCoche" message="tns:IServiceCoches_eliminarCoche_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceCoches/eliminarCocheResponse" message="tns:IServiceCoches_eliminarCoche_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="buscarCoche">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceCoches/buscarCoche" message="tns:IServiceCoches_buscarCoche_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceCoches/buscarCocheResponse" message="tns:IServiceCoches_buscarCoche_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="mostrarCoches">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceCoches/mostrarCoches" message="tns:IServiceCoches_mostrarCoches_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceCoches/mostrarCochesResponse" message="tns:IServiceCoches_mostrarCoches_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IServiceCoches" type="tns:IServiceCoches">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="agregarCoche">
+      <soap:operation soapAction="http://tempuri.org/IServiceCoches/agregarCoche" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="editarCoche">
+      <soap:operation soapAction="http://tempuri.org/IServiceCoches/editarCoche" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="eliminarCoche">
+      <soap:operation soapAction="http://tempuri.org/IServiceCoches/eliminarCoche" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="buscarCoche">
+      <soap:operation soapAction="http://tempuri.org/IServiceCoches/buscarCoche" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mostrarCoches">
+      <soap:operation soapAction="http://tempuri.org/IServiceCoches/mostrarCoches" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServiceCoches">
+    <wsdl:port name="BasicHttpBinding_IServiceCoches" binding="tns:BasicHttpBinding_IServiceCoches">
+      <soap:address location="http://localhost:56370/ServiceCoches.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

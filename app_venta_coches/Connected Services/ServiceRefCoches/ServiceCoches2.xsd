@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:56370/ServiceCoches.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WS_coches" />
+  <xs:element name="agregarCoche">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/WS_coches" minOccurs="0" name="coche" nillable="true" type="q1:Coches" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="agregarCocheResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="agregarCocheResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="editarCoche">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/WS_coches" minOccurs="0" name="coche" nillable="true" type="q2:Coches" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="editarCocheResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="editarCocheResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="eliminarCoche">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="matricula" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="eliminarCocheResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="eliminarCocheResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="buscarCoche">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="matricula" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="buscarCocheResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/WS_coches" minOccurs="0" name="buscarCocheResult" nillable="true" type="q3:Coches" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="mostrarCoches">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="mostrarCochesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/WS_coches" minOccurs="0" name="mostrarCochesResult" nillable="true" type="q4:ArrayOfCoches" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
