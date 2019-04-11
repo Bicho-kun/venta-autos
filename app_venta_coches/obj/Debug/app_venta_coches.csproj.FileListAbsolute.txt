@@ -7,3 +7,13 @@ c:\users\javier\documents\visual studio 2017\Projects\WFC_venta_coches\app_venta
 c:\users\javier\documents\visual studio 2017\Projects\WFC_venta_coches\app_venta_coches\obj\Debug\app_venta_coches.csproj.GenerateResource.Cache
 c:\users\javier\documents\visual studio 2017\Projects\WFC_venta_coches\app_venta_coches\obj\Debug\app_venta_coches.exe
 c:\users\javier\documents\visual studio 2017\Projects\WFC_venta_coches\app_venta_coches\obj\Debug\app_venta_coches.pdb
+C:\Users\Chris\Desktop\capacitacion\1949_wcf_profe\WCF_venta_coches\app_venta_coches\bin\Debug\app_venta_coches.exe.config
+C:\Users\Chris\Desktop\capacitacion\1949_wcf_profe\WCF_venta_coches\app_venta_coches\bin\Debug\app_venta_coches.exe
+C:\Users\Chris\Desktop\capacitacion\1949_wcf_profe\WCF_venta_coches\app_venta_coches\bin\Debug\app_venta_coches.pdb
+C:\Users\Chris\Desktop\capacitacion\1949_wcf_profe\WCF_venta_coches\app_venta_coches\obj\Debug\app_venta_coches.csprojAssemblyReference.cache
+C:\Users\Chris\Desktop\capacitacion\1949_wcf_profe\WCF_venta_coches\app_venta_coches\obj\Debug\app_venta_coches.FormCoches.resources
+C:\Users\Chris\Desktop\capacitacion\1949_wcf_profe\WCF_venta_coches\app_venta_coches\obj\Debug\app_venta_coches.Properties.Resources.resources
+C:\Users\Chris\Desktop\capacitacion\1949_wcf_profe\WCF_venta_coches\app_venta_coches\obj\Debug\app_venta_coches.csproj.GenerateResource.cache
+C:\Users\Chris\Desktop\capacitacion\1949_wcf_profe\WCF_venta_coches\app_venta_coches\obj\Debug\app_venta_coches.csproj.CoreCompileInputs.cache
+C:\Users\Chris\Desktop\capacitacion\1949_wcf_profe\WCF_venta_coches\app_venta_coches\obj\Debug\app_venta_coches.exe
+C:\Users\Chris\Desktop\capacitacion\1949_wcf_profe\WCF_venta_coches\app_venta_coches\obj\Debug\app_venta_coches.pdb

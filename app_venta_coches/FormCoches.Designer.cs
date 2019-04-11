@@ -28,11 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.labelMatricula = new System.Windows.Forms.Label();
+            this.labelMarca = new System.Windows.Forms.Label();
+            this.labelModelo = new System.Windows.Forms.Label();
+            this.labelColor = new System.Windows.Forms.Label();
+            this.labelPrecio = new System.Windows.Forms.Label();
             this.txtMatricula = new System.Windows.Forms.TextBox();
             this.txtMarca = new System.Windows.Forms.TextBox();
             this.txtModelo = new System.Windows.Forms.TextBox();
@@ -43,150 +43,163 @@
             this.btnAgregar = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
             this.lblMensaje = new System.Windows.Forms.Label();
+            this.btnLimpiar = new System.Windows.Forms.Button();
+            this.btnSalir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // labelMatricula
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(21, 18);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(56, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Matricula: ";
+            this.labelMatricula.AutoSize = true;
+            this.labelMatricula.Location = new System.Drawing.Point(12, 16);
+            this.labelMatricula.Name = "labelMatricula";
+            this.labelMatricula.Size = new System.Drawing.Size(56, 13);
+            this.labelMatricula.TabIndex = 0;
+            this.labelMatricula.Text = "Matricula: ";
             // 
-            // label2
+            // labelMarca
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(21, 49);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(43, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Marca: ";
+            this.labelMarca.AutoSize = true;
+            this.labelMarca.Location = new System.Drawing.Point(25, 42);
+            this.labelMarca.Name = "labelMarca";
+            this.labelMarca.Size = new System.Drawing.Size(43, 13);
+            this.labelMarca.TabIndex = 1;
+            this.labelMarca.Text = "Marca: ";
             // 
-            // label3
+            // labelModelo
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(21, 78);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(45, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Modelo:";
+            this.labelModelo.AutoSize = true;
+            this.labelModelo.Location = new System.Drawing.Point(20, 68);
+            this.labelModelo.Name = "labelModelo";
+            this.labelModelo.Size = new System.Drawing.Size(45, 13);
+            this.labelModelo.TabIndex = 2;
+            this.labelModelo.Text = "Modelo:";
             // 
-            // label4
+            // labelColor
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(21, 112);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(37, 13);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Color: ";
+            this.labelColor.AutoSize = true;
+            this.labelColor.Location = new System.Drawing.Point(31, 94);
+            this.labelColor.Name = "labelColor";
+            this.labelColor.Size = new System.Drawing.Size(37, 13);
+            this.labelColor.TabIndex = 3;
+            this.labelColor.Text = "Color: ";
             // 
-            // label5
+            // labelPrecio
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(21, 143);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(43, 13);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Precio: ";
+            this.labelPrecio.AutoSize = true;
+            this.labelPrecio.Location = new System.Drawing.Point(25, 120);
+            this.labelPrecio.Name = "labelPrecio";
+            this.labelPrecio.Size = new System.Drawing.Size(43, 13);
+            this.labelPrecio.TabIndex = 4;
+            this.labelPrecio.Text = "Precio: ";
             // 
             // txtMatricula
             // 
-            this.txtMatricula.Location = new System.Drawing.Point(84, 10);
+            this.txtMatricula.Location = new System.Drawing.Point(74, 12);
             this.txtMatricula.Name = "txtMatricula";
             this.txtMatricula.Size = new System.Drawing.Size(210, 20);
             this.txtMatricula.TabIndex = 5;
             // 
             // txtMarca
             // 
-            this.txtMarca.Location = new System.Drawing.Point(84, 46);
+            this.txtMarca.Location = new System.Drawing.Point(74, 38);
             this.txtMarca.Name = "txtMarca";
             this.txtMarca.Size = new System.Drawing.Size(210, 20);
             this.txtMarca.TabIndex = 6;
             // 
             // txtModelo
             // 
-            this.txtModelo.Location = new System.Drawing.Point(84, 78);
+            this.txtModelo.Location = new System.Drawing.Point(74, 64);
             this.txtModelo.Name = "txtModelo";
             this.txtModelo.Size = new System.Drawing.Size(210, 20);
             this.txtModelo.TabIndex = 7;
             // 
             // txtColor
             // 
-            this.txtColor.Location = new System.Drawing.Point(84, 112);
+            this.txtColor.Location = new System.Drawing.Point(74, 90);
             this.txtColor.Name = "txtColor";
             this.txtColor.Size = new System.Drawing.Size(210, 20);
             this.txtColor.TabIndex = 8;
             // 
             // txtPrecio
             // 
-            this.txtPrecio.Location = new System.Drawing.Point(84, 143);
+            this.txtPrecio.Location = new System.Drawing.Point(74, 116);
             this.txtPrecio.Name = "txtPrecio";
             this.txtPrecio.Size = new System.Drawing.Size(210, 20);
             this.txtPrecio.TabIndex = 9;
             // 
             // btnBuscar
             // 
-            this.btnBuscar.BackColor = System.Drawing.Color.Aqua;
-            this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnBuscar.Location = new System.Drawing.Point(331, 10);
+            this.btnBuscar.Location = new System.Drawing.Point(290, 12);
             this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(75, 23);
+            this.btnBuscar.Size = new System.Drawing.Size(75, 37);
             this.btnBuscar.TabIndex = 10;
             this.btnBuscar.Text = "Buscar";
-            this.btnBuscar.UseVisualStyleBackColor = false;
+            this.btnBuscar.UseVisualStyleBackColor = true;
             this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // btnEditar
             // 
-            this.btnEditar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.btnEditar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnEditar.Location = new System.Drawing.Point(331, 68);
+            this.btnEditar.Location = new System.Drawing.Point(290, 56);
             this.btnEditar.Name = "btnEditar";
-            this.btnEditar.Size = new System.Drawing.Size(75, 23);
+            this.btnEditar.Size = new System.Drawing.Size(75, 37);
             this.btnEditar.TabIndex = 11;
             this.btnEditar.Text = "Editar";
-            this.btnEditar.UseVisualStyleBackColor = false;
+            this.btnEditar.UseVisualStyleBackColor = true;
             // 
             // btnAgregar
             // 
-            this.btnAgregar.BackColor = System.Drawing.Color.Lime;
-            this.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnAgregar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnAgregar.Location = new System.Drawing.Point(438, 10);
+            this.btnAgregar.Location = new System.Drawing.Point(371, 12);
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(75, 23);
+            this.btnAgregar.Size = new System.Drawing.Size(75, 37);
             this.btnAgregar.TabIndex = 12;
             this.btnAgregar.Text = "Agregar";
-            this.btnAgregar.UseVisualStyleBackColor = false;
+            this.btnAgregar.UseVisualStyleBackColor = true;
             // 
             // btnEliminar
             // 
-            this.btnEliminar.BackColor = System.Drawing.Color.Red;
-            this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnEliminar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnEliminar.Location = new System.Drawing.Point(438, 68);
+            this.btnEliminar.Location = new System.Drawing.Point(371, 56);
             this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(75, 23);
+            this.btnEliminar.Size = new System.Drawing.Size(75, 37);
             this.btnEliminar.TabIndex = 13;
             this.btnEliminar.Text = "Eliminar";
-            this.btnEliminar.UseVisualStyleBackColor = false;
+            this.btnEliminar.UseVisualStyleBackColor = true;
             // 
             // lblMensaje
             // 
             this.lblMensaje.AutoSize = true;
-            this.lblMensaje.ForeColor = System.Drawing.Color.Cornsilk;
-            this.lblMensaje.Location = new System.Drawing.Point(331, 143);
+            this.lblMensaje.Location = new System.Drawing.Point(12, 146);
             this.lblMensaje.Name = "lblMensaje";
-            this.lblMensaje.Size = new System.Drawing.Size(0, 13);
+            this.lblMensaje.Size = new System.Drawing.Size(99, 26);
             this.lblMensaje.TabIndex = 14;
+            this.lblMensaje.Text = "Texto para localizar\neste label.";
+            // 
+            // btnLimpiar
+            // 
+            this.btnLimpiar.Location = new System.Drawing.Point(290, 100);
+            this.btnLimpiar.Name = "btnLimpiar";
+            this.btnLimpiar.Size = new System.Drawing.Size(75, 37);
+            this.btnLimpiar.TabIndex = 15;
+            this.btnLimpiar.Text = "Limpiar";
+            this.btnLimpiar.UseVisualStyleBackColor = true;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
+            // 
+            // btnSalir
+            // 
+            this.btnSalir.Location = new System.Drawing.Point(371, 100);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(75, 37);
+            this.btnSalir.TabIndex = 16;
+            this.btnSalir.Text = "Salir";
+            this.btnSalir.UseVisualStyleBackColor = true;
             // 
             // FormCoches
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(525, 261);
+            this.ClientSize = new System.Drawing.Size(458, 261);
+            this.Controls.Add(this.btnSalir);
+            this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.lblMensaje);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnAgregar);
@@ -197,11 +210,11 @@
             this.Controls.Add(this.txtModelo);
             this.Controls.Add(this.txtMarca);
             this.Controls.Add(this.txtMatricula);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.labelPrecio);
+            this.Controls.Add(this.labelColor);
+            this.Controls.Add(this.labelModelo);
+            this.Controls.Add(this.labelMarca);
+            this.Controls.Add(this.labelMatricula);
             this.Name = "FormCoches";
             this.Text = "COCHES";
             this.ResumeLayout(false);
@@ -211,11 +224,11 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label labelMatricula;
+        private System.Windows.Forms.Label labelMarca;
+        private System.Windows.Forms.Label labelModelo;
+        private System.Windows.Forms.Label labelColor;
+        private System.Windows.Forms.Label labelPrecio;
         private System.Windows.Forms.TextBox txtMatricula;
         private System.Windows.Forms.TextBox txtMarca;
         private System.Windows.Forms.TextBox txtModelo;
@@ -226,6 +239,8 @@
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Label lblMensaje;
+        private System.Windows.Forms.Button btnLimpiar;
+        private System.Windows.Forms.Button btnSalir;
     }
 }
 

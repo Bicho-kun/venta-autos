@@ -4,3 +4,10 @@ c:\users\javier\documents\visual studio 2017\Projects\WFC_venta_coches\WS_coches
 c:\users\javier\documents\visual studio 2017\Projects\WFC_venta_coches\WS_coches\obj\Debug\WS_coches.csprojResolveAssemblyReference.cache
 c:\users\javier\documents\visual studio 2017\Projects\WFC_venta_coches\WS_coches\obj\Debug\WS_coches.dll
 c:\users\javier\documents\visual studio 2017\Projects\WFC_venta_coches\WS_coches\obj\Debug\WS_coches.pdb
+C:\Users\Chris\Desktop\capacitacion\1949_wcf_profe\WCF_venta_coches\WS_coches\bin\WS_coches.dll.config
+C:\Users\Chris\Desktop\capacitacion\1949_wcf_profe\WCF_venta_coches\WS_coches\bin\WS_coches.dll
+C:\Users\Chris\Desktop\capacitacion\1949_wcf_profe\WCF_venta_coches\WS_coches\bin\WS_coches.pdb
+C:\Users\Chris\Desktop\capacitacion\1949_wcf_profe\WCF_venta_coches\WS_coches\obj\Debug\WS_coches.csprojAssemblyReference.cache
+C:\Users\Chris\Desktop\capacitacion\1949_wcf_profe\WCF_venta_coches\WS_coches\obj\Debug\WS_coches.csproj.CoreCompileInputs.cache
+C:\Users\Chris\Desktop\capacitacion\1949_wcf_profe\WCF_venta_coches\WS_coches\obj\Debug\WS_coches.dll
+C:\Users\Chris\Desktop\capacitacion\1949_wcf_profe\WCF_venta_coches\WS_coches\obj\Debug\WS_coches.pdb
